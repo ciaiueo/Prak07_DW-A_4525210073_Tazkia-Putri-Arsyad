@@ -273,7 +273,7 @@ Untuk pengembangan selanjutnya, website dapat diintegrasikan dengan PHP, databas
 
 ## 12. Kesimpulan
 
-Melalui praktikum Desain Web Pertemuan 6, saya telah mempelajari dan menerapkan penggunaan HTML Form untuk membuat formulir pendaftaran kursus dan formulir penerimaan mahasiswa baru.
+Melalui praktikum Desain Web Pertemuan 7, saya telah mempelajari dan menerapkan penggunaan HTML Form untuk membuat formulir pendaftaran kursus dan formulir penerimaan mahasiswa baru.
 
 Saya memahami penggunaan berbagai tipe input, atribut label, id, name, action, dan method, serta perbedaan fungsi tombol submit, reset, dan button.
 
@@ -283,5 +283,5 @@ Dengan pengerjaan project ini, saya memperoleh pemahaman mengenai dasar pembuata
 
 ---
 
-**Praktikum Desain Web - Pertemuan 6**  
+**Praktikum Desain Web - Pertemuan 7**  
 **Materi: HTML Form Dasar (Input & Pengiriman Data)**
