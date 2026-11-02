@@ -1,0 +1,162 @@
+/* WARNA PASTEL */
+:root {
+    --pink: #F8DDE8;
+    --pink-dark: #D98EAD;
+    --yellow: #FFF0C9;
+    --green: #DDF1E3;
+    --blue: #DDEBFA;
+    --text: #62566A;
+    --white: #FFFFFF;
+}
+
+/* PENGATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #FCEAF1,
+        #FFF6DF,
+        #E8F5EB,
+        #E8F1FC
+    );
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 35px 15px;
+    color: var(--text);
+}
+
+/* CARD FORM */
+.container {
+    background: var(--white);
+    max-width: 550px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 25px;
+    border: 3px solid #F8E8EF;
+    box-shadow: 0 8px 25px rgba(180, 140, 160, 0.15);
+}
+
+/* JUDUL */
+h1 {
+    text-align: center;
+    color: #C77E9D;
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+
+p {
+    text-align: center;
+    color: #968A99;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* LABEL */
+label {
+    display: block;
+    margin-top: 17px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #756477;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid #F2E4EB;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: #FFFCFD;
+    color: var(--text);
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--pink-dark);
+    box-shadow: 0 0 0 3px #FCEAF1;
+}
+
+/* TOMBOL */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+}
+
+button {
+    flex: 1;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #62566A;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* WARNA MASING-MASING BUTTON */
+button:nth-child(1) {
+    background-color: var(--pink);
+}
+
+button:nth-child(2) {
+    background-color: var(--yellow);
+}
+
+button:nth-child(3) {
+    background-color: var(--green);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    filter: brightness(0.97);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* LINK */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #7196C2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C77E9D;
+    text-decoration: underline;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 480px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .container {
+        padding: 22px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
